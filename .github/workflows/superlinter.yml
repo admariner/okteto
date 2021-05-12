@@ -7,7 +7,7 @@ jobs:
     name: superlinter
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.3.4
       - uses: github/super-linter@v3
         env:
           ERROR_ON_MISSING_EXEC_BIT: true
